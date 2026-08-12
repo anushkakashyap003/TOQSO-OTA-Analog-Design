@@ -35,29 +35,6 @@ The oscillator generates three sinusoidal output voltages — **Vo1, Vo2, and Vo
 
 ---
 
-## Repository Structure
-
-```
-TOQSO-OTA-Analog-Design/
-│
-├── README.md
-│
-├── schematics/
-│   ├── OTA_transistor_level.png       ← Transistor-level OTA (OTA_new cell)
-│   ├── TOQSO_topology_2.png           ← Final_TOQSO_2 system schematic
-│   └── TOQSO_topology_3.png           ← Final_TOQSO_3 system schematic
-│
-├── waveforms/
-│   ├── transient_TOQSO_2.png          ← Vo1, Vo2, Vo3 transient — Topology 2
-│   └── transient_TOQSO_3.png          ← Vo1, Vo2, Vo3 transient — Topology 3
-│
-├── netlist/
-│   └── OTA_new.spi                    ← SPICE/CDL netlist exported from Virtuoso
-│
-└── docs/
-    ├── theory.md                      ← Barkhausen criterion, frequency derivation
-    └── design_decisions.md            ← W/L rationale, bias current, Gm tuning
-```
 
 ---
 
