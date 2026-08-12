@@ -91,8 +91,6 @@ The supply is symmetric (±900 mV), giving a total supply swing of 1.8 V.
 
 ---
 
-### OTA Schematic
-![OTA Transistor Level](schematics/OTA_transistor_level.png)
 
 ---
 
@@ -111,7 +109,6 @@ The two topologies differ in the **interconnection order** of OTA instances and 
 - **Output nodes:** Vo1 (top), Vo2 (bottom-left), Vo3 (bottom-right)
 - All OTAs in standard orientation (Vplus/Vminus signal path consistent)
 
-![Topology 2 Schematic](schematics/TOQSO_topology_2.png)
 
 ---
 
@@ -122,7 +119,6 @@ The two topologies differ in the **interconnection order** of OTA instances and 
 - **Output nodes:** Vo1 (top-right), Vo2 (middle-left), Vo3 (top-left)
 - Some OTAs have **Vminus/Vplus swapped** (inverting stage) to close the 360° phase loop correctly
 
-![Topology 3 Schematic](schematics/TOQSO_topology_3.png)
 
 ---
 
@@ -141,7 +137,6 @@ Transient simulation was performed using **Cadence Spectre** via **ADE L** over 
 - Period: **~0.1 µs → f₀ ≈ 10 MHz**
 - Clear ~90° phase offset between Vo1 and Vo2 in steady state
 
-![Waveform Topology 2](waveforms/transient_TOQSO_2.png)
 
 ---
 
@@ -154,7 +149,6 @@ Transient simulation was performed using **Cadence Spectre** via **ADE L** over 
 - Period: **~0.1 µs → f₀ ≈ 10 MHz**
 - Quadrature phase relationship between Vo2 and Vo3 consistent with Topology 2
 
-![Waveform Topology 3](waveforms/transient_TOQSO_3.png)
 
 ---
 
